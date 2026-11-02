@@ -1,0 +1,119 @@
+<!doctype html>
+<!-- Neraventh – coming soon page. Version 1.0 — last updated: 2 November 2026 -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Neraventh – The AI Game Master</title>
+  <meta name="description" content="Neraventh is an open-source AI Game Master for fantasy tabletop adventures. It runs on your PC, with a real 3D table, real dice and a voice.">
+  <meta property="og:title" content="Neraventh – The AI Game Master">
+  <meta property="og:description" content="The Game Master creates the possibilities. The players create the story.">
+  <meta property="og:image" content="https://neraventh.com/logo.png">
+  <meta property="og:url" content="https://neraventh.com/">
+  <link rel="icon" href="logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=EB+Garamond:ital@0;1&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0d0a08;
+      --bg-glow: #2a1208;
+      --gold: #d9a441;
+      --gold-soft: #b8893a;
+      --text: #e9dfcf;
+      --muted: #a3968a;
+      --line: #3a2a1c;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; }
+    body {
+      min-height: 100vh;
+      background: radial-gradient(ellipse at 50% 20%, var(--bg-glow) 0%, var(--bg) 60%) fixed, var(--bg);
+      color: var(--text);
+      font-family: "EB Garamond", Georgia, serif;
+      font-size: 1.2rem;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 48px 16px 32px;
+    }
+    main { width: 100%; max-width: 680px; text-align: center; }
+    .logo {
+      width: 260px; max-width: 70vw; height: auto;
+      filter: drop-shadow(0 0 32px rgba(217, 120, 40, 0.35));
+    }
+    h1 {
+      font-family: "Cinzel", serif; font-weight: 700;
+      letter-spacing: 0.12em; color: var(--gold);
+      font-size: clamp(2rem, 7vw, 3.2rem); margin: 24px 0 0;
+    }
+    .sub {
+      font-family: "Cinzel", serif; letter-spacing: 0.3em;
+      color: var(--gold-soft); font-size: 0.85rem; text-transform: uppercase; margin: 4px 0 0;
+    }
+    .meaning { font-style: italic; color: var(--muted); margin: 12px 0 32px; }
+    .motto {
+      font-style: italic; font-size: 1.35rem; color: var(--text);
+      border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);
+      padding: 20px 8px; margin: 0 0 32px;
+    }
+    .intro { margin: 0 0 32px; }
+    ul.points { list-style: none; padding: 0; margin: 0 0 40px; text-align: left; }
+    ul.points li { padding: 12px 0 12px 32px; border-bottom: 1px solid var(--line); position: relative; }
+    ul.points li::before { content: "◆"; color: var(--gold); position: absolute; left: 6px; top: 12px; font-size: 0.9rem; }
+    ul.points strong { color: var(--gold); font-weight: normal; font-family: "Cinzel", serif; font-size: 1rem; letter-spacing: 0.05em; }
+    .soon {
+      display: inline-block; font-family: "Cinzel", serif; letter-spacing: 0.25em;
+      color: var(--bg); background: var(--gold); padding: 8px 20px; border-radius: 2px;
+      font-size: 0.95rem; margin-bottom: 24px;
+    }
+    .links { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin-bottom: 40px; }
+    .links a {
+      color: var(--gold); text-decoration: none; border: 1px solid var(--gold-soft);
+      padding: 8px 18px; border-radius: 2px; font-size: 1.05rem;
+    }
+    .links a:hover, .links a:focus { background: rgba(217, 164, 65, 0.12); }
+    footer { max-width: 680px; text-align: center; color: var(--muted); font-size: 0.9rem; margin-top: auto; }
+    footer a { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <main>
+    <img class="logo" src="logo.png" alt="Neraventh logo: a golden eye over an open book and a twenty-sided die">
+    <h1>NERAVENTH</h1>
+    <p class="sub">The AI Game Master</p>
+    <p class="meaning">“The Keeper of Possible Paths”</p>
+
+    <p class="motto">The Game Master creates the possibilities.<br>The players create the story.</p>
+
+    <p class="intro">
+      Neraventh is a Game Master for fantasy tabletop adventures,
+      compatible with the fifth edition rules.
+      You tell it what your hero does. It tells the story out loud,
+      gives a voice to the people you meet, and rolls the dice on a real 3D table.
+    </p>
+
+    <ul class="points">
+      <li><strong>Open source and free.</strong> No account, no subscription.</li>
+      <li><strong>Runs on your PC.</strong> Your saves stay at home. Use a cloud AI or one that runs on your own machine.</li>
+      <li><strong>Fair dice.</strong> The rules and every roll are handled by code. The AI tells the story, but it never makes up a number.</li>
+      <li><strong>Your choices.</strong> The Game Master never decides for you. Your hero is yours.</li>
+      <li><strong>A real table.</strong> A 3D diorama with miniatures, torchlight and dice you can watch roll.</li>
+    </ul>
+
+    <div class="soon">COMING SOON</div>
+
+    <div class="links">
+      <a href="https://x.com/neraventh">X</a>
+      <a href="https://bsky.app/profile/neraventh.bsky.social">Bluesky</a>
+      <a href="mailto:info@neraventh.com">info@neraventh.com</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>Compatible with the fifth edition rules (System Reference Document 5.2.1, CC-BY-4.0).<br>
+    © 2026 Stefano Angeli</p>
+  </footer>
+</body>
+</html>
