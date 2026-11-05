@@ -1,11 +1,11 @@
 <!doctype html>
-<!-- Neraventh – coming soon page. Version 1.0 — last updated: 2 November 2026 -->
+<!-- Neraventh – coming soon page. Version 1.1 — last updated: 5 November 2026 -->
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Neraventh – The AI Game Master</title>
-  <meta name="description" content="Neraventh is an open-source AI Game Master for fantasy tabletop adventures. It runs on your PC, with a real 3D table, real dice and a voice.">
+  <meta name="description" content="Neraventh is a free, open-source AI Game Master for fantasy tabletop adventures. No account, no subscription. It runs on your PC, with a real 3D table, real dice and a voice.">
   <meta property="og:title" content="Neraventh – The AI Game Master">
   <meta property="og:description" content="The Game Master creates the possibilities. The players create the story.">
   <meta property="og:image" content="https://neraventh.com/logo.png">
@@ -63,6 +63,12 @@
     ul.points li { padding: 12px 0 12px 32px; border-bottom: 1px solid var(--line); position: relative; }
     ul.points li::before { content: "◆"; color: var(--gold); position: absolute; left: 6px; top: 12px; font-size: 0.9rem; }
     ul.points strong { color: var(--gold); font-weight: normal; font-family: "Cinzel", serif; font-size: 1rem; letter-spacing: 0.05em; }
+    .free {
+      font-family: "Cinzel", serif; letter-spacing: 0.08em; font-size: 1.15rem;
+      color: var(--gold); border: 1px solid var(--gold-soft); border-radius: 2px;
+      padding: 14px 12px; margin: 0 0 12px; background: rgba(217, 164, 65, 0.07);
+    }
+    .free-note { color: var(--muted); font-size: 1.02rem; margin: 0 0 32px; }
     .soon {
       display: inline-block; font-family: "Cinzel", serif; letter-spacing: 0.25em;
       color: var(--bg); background: var(--gold); padding: 8px 20px; border-radius: 2px;
@@ -87,6 +93,10 @@
 
     <p class="motto">The Game Master creates the possibilities.<br>The players create the story.</p>
 
+    <p class="free">Free and open source. No account. No subscription. No ads.</p>
+    <p class="free-note">You only pay your AI provider, if you use one. With a budget AI, an evening costs a few cents.
+      Or run the AI on your own PC, for free.</p>
+
     <p class="intro">
       Neraventh is a Game Master for fantasy tabletop adventures,
       compatible with the fifth edition rules.
@@ -95,8 +105,8 @@
     </p>
 
     <ul class="points">
-      <li><strong>Open source and free.</strong> No account, no subscription.</li>
-      <li><strong>Runs on your PC.</strong> Your saves stay at home. Use a cloud AI or one that runs on your own machine.</li>
+      <li><strong>Nothing leaves your PC.</strong> No tracking, no data sent to us. Your saves stay at home.</li>
+      <li><strong>Your choice of AI.</strong> Use a cloud AI with your own key, or one that runs on your own machine.</li>
       <li><strong>Fair dice.</strong> The rules and every roll are handled by code. The AI tells the story, but it never makes up a number.</li>
       <li><strong>Your choices.</strong> The Game Master never decides for you. Your hero is yours.</li>
       <li><strong>A real table.</strong> A 3D diorama with miniatures, torchlight and dice you can watch roll.</li>
@@ -106,13 +116,13 @@
 
     <div class="links">
       <a href="https://x.com/neraventh">X</a>
-      <a href="https://bsky.app/profile/neraventh.bsky.social">Bluesky</a>
+      <a href="https://bsky.app/profile/neraventh.com">Bluesky</a>
       <a href="mailto:info@neraventh.com">info@neraventh.com</a>
     </div>
   </main>
 
   <footer>
-    <p>Compatible with the fifth edition rules (System Reference Document 5.2.1, CC-BY-4.0).<br>
+    <p>Free software under the Apache-2.0 license. Compatible with the fifth edition rules (System Reference Document 5.2.1, CC-BY-4.0).<br>
     © 2026 Stefano Angeli</p>
   </footer>
 </body>
